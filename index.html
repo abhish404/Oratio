@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Voice Assistant</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Smart Voice Assistant Prototype</h1>
+        <div class="controls">
+            <button class="record-btn" onclick="startDictation()">🎙 Start Recording</button>
+            <button class="stop-btn" onclick="stopDictation()">🛑 Stop Recording</button>
+        </div>
+        <p id="status" class="status">Status: Idle</p>
+        <textarea id="transcript" class="transcript" rows="10" cols="50" placeholder="Transcription appears here..."></textarea>
+        <br />
+        <button class="extract-btn" onclick="extractActions()">Extract Actions</button>
+        <div id="results" class="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
