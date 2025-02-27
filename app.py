@@ -19,7 +19,7 @@ except OSError:
 print("[SUCCESS] NLP model loaded.")
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyA7muIhx00seoQrQ9pjnFAA9MqzJIrVLt8"
+GEMINI_API_KEY = "PASTE_YOUR_KEY_HERE"
 genai.configure(api_key=GEMINI_API_KEY)
 print("[INFO] Gemini API configured.")
 
